@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 201, 196);
+}
+
+
+.container{
+    width: 275px;
+    margin: 100px auto;   
+    border-radius: 10px ;
+    box-shadow: 1px 0px 13px rgb(129, 101, 1);;
+}
+
+header{
+    background-color: rgb(255, 198, 0);
+    border-radius: 10px 10px 0 0 ;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.bar{
+    display: block;
+    height: 3px;
+    background-color: black;  
+}
+
+main{
+    background-color: rgb(255, 198, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px 30px;
+    
+}
+
+input{
+    width: 60%;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+label{    
+    font-weight: 900;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.config-input{
+    text-align: end;
+    margin-left: -10px;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.result{
+    background-color: rgb(255, 198, 0);
+    height: 20%;
+    border-radius: 0 0 10px 10px ;
+}
+
+p{
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    max-width: 76%;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
