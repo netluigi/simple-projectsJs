@@ -6,7 +6,7 @@ function imc() {
   const altura = document.querySelector("#altura").value;
   const peso = document.querySelector("#peso").value;
   const resultado = document.querySelector(".resultado");
-
+console.log(peso)
 // !== significa diferente
 // && é apenas o e, e alguma coisa 
 
@@ -34,9 +34,6 @@ function imc() {
     resultado.textContent = 'Preencha todos os campos!!!';
   }
 
-  const nomeA = document.querySelector("#nome").value='';
-  const alturaA = document.querySelector("#altura").value='';
-  const pesoA = document.querySelector("#peso").value='';
 }
 
 //addEventLister,  o java escript vai ficar atento o evento que ele vai estar a espera é o click, ao clicar no botao calcular ele vai chamar uma funcao que no caso seria a img.
