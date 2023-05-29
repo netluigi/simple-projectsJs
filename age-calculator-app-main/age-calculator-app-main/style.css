@@ -45,10 +45,15 @@
     cursor: pointer;
 }
 
-/* span {
-    border-bottom: 5px solid black;
+.line {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-bottom: 5px solid var(--bkprimary);
+    border-radius: 5px;
     border-width: 1px;
-} */
+    box-shadow: 1px 0px 2px var(--bkprimary) ;
+}
 
 .datesContainers {
     display: flex;
@@ -92,4 +97,49 @@ input {
 .attribution{
     text-align: center;
     font-size: 10px;
+}
+
+@media (max-width:450px){
+    .card {
+        width: 375px;
+        height: 500px;
+    }
+
+    .datesContainers {     
+        width: 90px; 
+        margin-top: 20px;
+        color: gray;  
+        margin: auto;    
+    }
+
+    .datesWarning{
+        display: none;
+    }
+
+    input {
+        width: 80px;
+    }
+
+    .line {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    #btnResult{
+        position: absolute;
+        left: 149px;
+        top: 131px;
+        cursor: pointer;
+    }
+
+    .containerResult{
+        margin-top: 50px;
+    }
+
+    .result{
+        
+        font-size:50px ;
+
+    }
+    
 }
