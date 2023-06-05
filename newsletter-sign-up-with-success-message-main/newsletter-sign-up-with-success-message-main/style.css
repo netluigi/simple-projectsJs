@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    /* Fonts */
+    --primary-font: 'Roboto', sans-serif;
+
+    /* Colors */
+
+    --primary-color: hsl(235, 18%, 26%);
+    --secondary-color: hsl(231, 7%, 60%);
+    --button-color: hsl(4, 100%, 67%);
+    --neutry_color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-general {
+    background-color: rgb(1, 1, 55);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card_submit{
+    display: none;
+}
+
+.card {
+    width: 90%;
+    max-width: 710px;
+    height: auto;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#card_contents {
+    max-width: 100%;
+    width: 490px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#card_contents h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.product_apresentation {
+    width: 330px;
+    padding: 10px;
+    font-size: 14px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+#card_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card_img img {
+    max-width: 90%;
+
+}
+
+form {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fomr_p {
+    font-size: 10px;
+}
+
+#email {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.confirmBtn {
+    background: linear-gradient(to right, hsl(349, 75%, 55%), rgb(252, 74, 64), rgb(246, 89, 37));
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+    border: 1px solid rgb(206, 61, 42);
+    cursor: pointer;
+    color: var(--neutry_color);
+}
+
+
+
+.emailConfirmation_styles {
+    display: none;
+    background-color: var(--neutry_color);
+    width: 380px;
+    height: 414px;
+    border-radius: 15px;
+}
+
+.successIcon {
+    padding: 30px 50px 15px;
+}
+
+.emailConfirmation_styles>h1 {
+    display: block;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: 900;
+    font-size: 45px;
+    padding: 0px 50px 15px;
+}
+
+.emailConfirmation_styles>p {
+    padding: 0px 50px 31px;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    
+}
+
+.emailConfirmation_styles>button {
+    width: 300px;
+    background: linear-gradient(to right, hsl(349, 75%, 55%), rgb(252, 74, 64), rgb(246, 89, 37));  
+    padding: 13px  30px;
+    margin-left: 47px;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 61, 42);
+    cursor: pointer;
+    color: var(--neutry_color);
+    box-shadow: 0px 1px 24px rgb(252, 74, 64);
+}
+
+
+.attribution {
+    margin-top: 5%;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

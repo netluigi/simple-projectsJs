@@ -1,52 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
   <!-- Sign-up form start -->
 
-  Stay updated!
+  <div class="card-general">
+    <div class="card" >
+      <div id="card_contents">
+        <h1>Stay updated!</h1>
+        <p class="product_apresentation">Join 60,000+ product managers receiving monthly updates on:</p>
+        <p class="product_apresentation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="15"
+            viewBox="0 0 64 64">
+            <defs>
+              <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#FF6A3A" />
+                <stop offset="100%" stop-color="#FF527B" />
+              </linearGradient>
+            </defs>
+            <g fill="none">
+              <circle cx="30" cy="32" r="32" fill="url(#a)" />
+              <path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285" />
+            </g>
+          </svg>Product discovery and building what matters</p>
+        <p class="product_apresentation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="15"
+            viewBox="0 0 64 64">
+            <defs>
+              <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#FF6A3A" />
+                <stop offset="100%" stop-color="#FF527B" />
+              </linearGradient>
+            </defs>
+            <g fill="none">
+              <circle cx="30" cy="32" r="32" fill="url(#a)" />
+              <path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285" />
+            </g>
+          </svg>Measuring to ensure updates are a success</p>
+        <p class="product_apresentation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="15"
+            viewBox="0 0 64 64">
+            <defs>
+              <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#FF6A3A" />
+                <stop offset="100%" stop-color="#FF527B" />
+              </linearGradient>
+            </defs>
+            <g fill="none">
+              <circle cx="30" cy="32" r="32" fill="url(#a)" />
+              <path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285" />
+            </g>
+          </svg>And much more!</p>
 
-  Join 60,000+ product managers receiving monthly updates on:
+        <!-- Sign-up form end -->
+        <form>
+          <p class="fomr_p">Email address</p>
+          <input type="email" name="email" id="email" placeholder="ash@leremcompany.com">
+          <button class="confirmBtn">Subscribe to monthly newsletter</button>
+        </form>
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+      </div>
+      <div id="card_img">
+        <img src="assets/images/illustration-sign-up-desktop.svg" width="600" alt="illustration design"
+          class="img_illustration">
 
-  Email address
-  email@company.com
+      </div>
+    </div>
+    <!-- Success message start -->
+    <div class="emailConfirmation_styles">
+      <img src="assets/images/icon-success.svg" alt="success icon" class="successIcon">
+      <h1 >Thanks for subscribing!</h1>
+      <p>
+        A confirmation email has been sent to ash@loremcompany.com.
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+      <button>Dismiss message</button>
 
-  Subscribe to monthly newsletter
-
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message
-
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
+
+  <script src="script.js"></script>
+
+
 </body>
+
 </html>
