@@ -28,7 +28,7 @@
 
 }
 
-.card_submit{
+.card_submit {
     display: none;
 }
 
@@ -61,22 +61,25 @@
 }
 
 .product_apresentation {
-    width: 330px;
+    max-width: 100%;
     padding: 10px;
     font-size: 14px;
     color: var(--primary-color);
     font-weight: 600;
 }
 
-#card_img {
+.card_img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#card_img img {
+.card_img img {
     max-width: 90%;
+}
 
+.card_mobile{
+    display: none;
 }
 
 form {
@@ -84,10 +87,24 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    
+}
+
+.textform{
+    display: flex;
+    justify-content:space-between;
+    
 }
 
 .fomr_p {
     font-size: 10px;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.fomr_p_Error{
+    display: none;
 }
 
 #email {
@@ -138,13 +155,13 @@ form {
     font-size: 12px;
     font-weight: 700;
     line-height: 1.5;
-    
+
 }
 
 .emailConfirmation_styles>button {
     width: 300px;
-    background: linear-gradient(to right, hsl(349, 75%, 55%), rgb(252, 74, 64), rgb(246, 89, 37));  
-    padding: 13px  30px;
+    background: linear-gradient(to right, hsl(349, 75%, 55%), rgb(252, 74, 64), rgb(246, 89, 37));
+    padding: 13px 30px;
     margin-left: 47px;
     border-radius: 5px;
     border: 1px solid rgb(206, 61, 42);
@@ -164,3 +181,47 @@ form {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* Mobile */
+
+@media (max-width:790px) {
+    .card{
+        display: flex;
+        flex-direction: column-reverse;
+        width:339px; 
+        height: 689px; 
+        margin-top: 10px;    
+    }
+
+    .card_img {
+        display: none;
+    } 
+
+    .img_illustration{
+        max-width: 100%;
+       
+    }
+
+    .card_mobile{
+        display: flex;   
+    }
+
+    #card_contents{
+        padding: 0px 15px 26px 15px;
+    }
+
+    #card_contents h1{
+        font-size: 34px;
+        text-align: start;
+        padding: 0 37px 0 0;
+        
+    }
+    .attribution {
+       display: none
+    }
+
+
+
+};
+
+

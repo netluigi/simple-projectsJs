@@ -16,7 +16,7 @@
   <!-- Sign-up form start -->
 
   <div class="card-general">
-    <div class="card" >
+    <div class="card">
       <div id="card_contents">
         <h1>Stay updated!</h1>
         <p class="product_apresentation">Join 60,000+ product managers receiving monthly updates on:</p>
@@ -62,14 +62,22 @@
 
         <!-- Sign-up form end -->
         <form>
-          <p class="fomr_p">Email address</p>
+          <div class="textform">
+            <p class="fomr_p">Email address</p>
+            <p class="fomr_p_Error">Valid email required !</p>
+          </div>
           <input type="email" name="email" id="email" placeholder="ash@leremcompany.com">
           <button class="confirmBtn">Subscribe to monthly newsletter</button>
         </form>
 
       </div>
-      <div id="card_img">
+      <div class="card_img">
         <img src="assets/images/illustration-sign-up-desktop.svg" width="600" alt="illustration design"
+          class="img_illustration">
+
+      </div>
+      <div class="card_mobile">
+        <img src="assets/images/mobille2.png"  alt="illustration design"
           class="img_illustration">
 
       </div>
@@ -77,7 +85,7 @@
     <!-- Success message start -->
     <div class="emailConfirmation_styles">
       <img src="assets/images/icon-success.svg" alt="success icon" class="successIcon">
-      <h1 >Thanks for subscribing!</h1>
+      <h1>Thanks for subscribing!</h1>
       <p>
         A confirmation email has been sent to ash@loremcompany.com.
         Please open it and click the button inside to confirm your subscription.
