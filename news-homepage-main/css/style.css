@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+    --font: 'Inter', sans-serif;
+
+    --tittle-colors: hsl(240, 100%, 5%);
+    --special-tittle-color: hsl(35, 77%, 62%);
+    --texts-colors: hsl(236, 13%, 42%);
+    --text-extra-colors:hsl(233, 8%, 79%);
+    --button-color: hsl(5, 82%, 56%);
+    --neutral-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#master-container {
+    width: 1000px;
+    margin: auto;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.header-navbar {
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.header-navbar a {
+    color: var(--texts-colors);
+}
+
+.container-extra {
+    display: flex;
+
+}
+
+#main-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.main-container_card {
+    max-width: 76.5%;
+}
+
+.card-extra{
+    background-color: black;
+    color: var(--neutral-color);
+    
+}
+
+.main-container_card img {
+    width: 700px;
+    height: 200px;
+    
+}
+
+.main-container_content {
+    width: 700px;
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.main-container_card_text {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.main-container_card h1 {
+    width: 38%;
+    font-size: 3rem;
+    line-height: 48px;
+    font-weight: 900;
+    font-family: var(--font);
+    padding: 10px 30px 0 0;
+
+}
+
+.main-container_card p {
+ 
+    font-size: small;
+    color: black;
+    font-family: var(--font);
+    font-weight: 500;
+    line-height: 1.2rem;
+    padding: 20px 0 20px 0;
+
+}
+
+.main-container_card button{
+    width: 150px;
+    padding: 10px;
+    color: var(--neutral-color);
+    background-color: var(--button-color);
+    border: 5px var(--button-color);
+    cursor: pointer;
+    font-family: var(--font);
+    letter-spacing: 1.5px;
+}
+
+.card-extra {
+    max-width: 28%;
+    height: 360px;
+    padding: 0 32px;
+    font-family: var(--font);
+}
+
+.card-extra h1{
+    color: var(--special-tittle-color);
+    padding-top: 16px;
+        
+}
+
+.card-extra_text h2{
+    font-size: 1rem; 
+    padding: 5px 0;  
+    padding-top: 15px; 
+}
+
+.card-extra_text p{
+    font-size: 0.7rem;
+    color: var(--text-extra-colors); 
+    padding-bottom: 25px;
+      
+}
+
+.text-border{
+    border-bottom: 0.5px solid var(--text-extra-colors); 
+}
+
+.container-extra_cards{
+    display: flex;
+    gap: 18px;
+}
+
+.container-extra img{
+    width: 110px;
+    height: 130px;
+    
+}
+
+.container-extra_cards_text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* New Hydrogen VS
+            Electric Cars Will hydrogen-fueled cars ever catch up to EVs? The Downsides
+            of AI Artistry What are the possible adverse effects of on-demand AI image
+            generation? Is VC Funding Drying Up? Private funding by VC firms is down 50%
+            YOY. We take a look at what that means. 01 Reviving Retro PCs What happens
+            when old PCs are given modern upgrades? 02 Top 10 Laptops of 2022 Our best
+            picks for various needs and budgets. 03 The Growth of Gaming How the
+            pandemic has sparked fresh opportunities */
